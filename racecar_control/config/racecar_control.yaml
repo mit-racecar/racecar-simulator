@@ -3,7 +3,7 @@ racecar:
   joint_state_controller:
     type: joint_state_controller/JointStateController
     publish_rate: 50
-  
+
 
   # Velocity Controllers ---------------------------------------
   left_rear_wheel_velocity_controller:
