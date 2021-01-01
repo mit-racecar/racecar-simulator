@@ -5,14 +5,14 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://racecar_description/meshes/walker_racecourse.dae</uri>
+            <uri>model://racecar_description/meshes/willowgarage_collision.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://racecar_description/meshes/walker_racecourse.dae</uri>
+            <uri>model://racecar_description/meshes/willowgarage_collision.dae</uri>
           </mesh>
         </geometry>
       </visual>
