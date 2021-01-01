@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sdf version='1.7'>
-  <world name='racecar_tunnel'>
+  <world name='racecar_willow'>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose>0 0 10 0 -0 0</pose>
@@ -87,7 +87,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='racecar'>
+    <model name='racecar1'>
       <link name='base_link'>
         <inertial>
           <pose>0.151394 0 0.052361 0 -0 0</pose>
@@ -712,7 +712,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <state world_name='racecar_tunnel'>
+    <state world_name='racecar_willow'>
       <sim_time>320 667000000</sim_time>
       <real_time>186 42608262</real_time>
       <wall_time>1609529801 393383275</wall_time>
@@ -727,7 +727,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='racecar'>
+      <model name='racecar2'>
         <pose>-9.4e-05 -1e-06 -1e-06 -0 2e-06 -7e-06</pose>
         <scale>1 1 1</scale>
         <link name='base_link'>
