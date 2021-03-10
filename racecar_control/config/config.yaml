@@ -1,0 +1,10 @@
+simple_example:
+joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 20
+
+base_to_second_joint_position_controller:
+    joint: base_to_second_joint
+    type: effort_controllers/JointPositionController
+    pid: {p: 1.0, i: 1.0, d: 0.0}
+    

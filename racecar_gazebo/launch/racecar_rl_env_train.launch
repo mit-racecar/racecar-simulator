@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
   <include file="$(find racecar_gazebo)/launch/racecar.launch">
-    <arg name="world_name" value="racecar_parking_1"/>
+    <arg name="world_name" value="racecar_rl_env_train"/>
   </include>
 </launch>
